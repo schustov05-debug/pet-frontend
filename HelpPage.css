@@ -1,0 +1,127 @@
+/* HELP PAGE */
+.help-page {
+  padding: 40px 60px 80px;
+  min-height: 70vh;
+  position: relative;
+}
+
+.help-title {
+  font-size: 26px;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin-bottom: 32px;
+}
+
+/* КАРТОЧКИ */
+.help-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.help-card {
+  background: #f0f0f0;
+  border-radius: 20px;
+  padding: 28px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 280px;
+}
+
+.help-card-body {
+  flex: 1;
+}
+
+.help-card-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 14px;
+  text-align: center;
+}
+
+.help-card-text {
+  font-size: 14px;
+  line-height: 1.7;
+  color: #333;
+}
+
+.btn-more {
+  background: #1C4B2D;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 14px 0;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 24px;
+  transition: background 0.2s;
+}
+
+.btn-more:hover {
+  background: #153d23;
+}
+
+/* OVERLAY */
+.help-detail-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ДЕТАЛЬНЫЙ БЛОК */
+.help-detail-box {
+  background: #f0f0f0;
+  border-radius: 20px;
+  padding: 40px 36px 36px;
+  max-width: 420px;
+  width: 90%;
+  position: relative;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.help-detail-close {
+  position: absolute;
+  top: 14px;
+  right: 16px;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #666;
+  line-height: 1;
+  padding: 4px 6px;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+.help-detail-close:hover {
+  background: #ddd;
+  color: #333;
+}
+
+.detail-section {
+  margin-bottom: 18px;
+}
+
+.detail-heading {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1C4B2D;
+  margin-bottom: 6px;
+}
+
+.detail-text {
+  font-size: 13px;
+  line-height: 1.7;
+  color: #333;
+}

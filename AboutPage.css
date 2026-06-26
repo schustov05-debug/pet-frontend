@@ -1,0 +1,40 @@
+/* ABOUT PAGE */
+.about-page {
+  min-height: 70vh;
+}
+
+/* БАННЕР */
+.about-banner {
+  width: 100%;
+  height: 360px;
+  overflow: hidden;
+}
+
+.about-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+  display: block;
+}
+
+/* ТЕКСТ */
+.about-content {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 60px 40px 80px;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 28px;
+}
+
+.about-text {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333;
+}
